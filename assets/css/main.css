@@ -1,0 +1,46 @@
+*{
+
+}
+body{
+	background-color: #000000
+}
+
+#navbar {
+	background-color: tomato;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden; 
+	background-color: #D7363F; 
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: "Baloo Paaji";
+}
+
+li a:hover:not(.active){
+	background-color: #ff7673;
+}
+
+#fotos{
+	background-color: black;
+	text-align: center;
+    padding: 59px;
+}
+	
+}
