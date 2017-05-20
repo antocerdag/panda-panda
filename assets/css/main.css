@@ -56,8 +56,8 @@ li a:hover:not(.active){
 	border-color: #DAE2D9;    
 	margin-left: 68px;
 }
-img{
-	
+#contenedorfotos .foto a{
+	margin-bottom: 10px;
 }
 
 /* Sección cajas */
