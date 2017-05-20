@@ -1,12 +1,17 @@
-*{
 
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
 }
+
 body{
 	background-color: #000000
 }
 
 #navbar {
-	background-color: tomato;
+	background-color:  #D7363F; 
 	background-size: cover;
 	background-position: center;
 	
@@ -14,14 +19,14 @@ body{
 
 ul{
 	list-style-type: none;
-	margin: 0;
+	margin-left: 94px;
 	padding: 0;
 	overflow: hidden; 
 	background-color: #D7363F; 
 }
 
 li {
-	float: right;
+	float: left;
 }
 
 li a {
@@ -37,10 +42,90 @@ li a:hover:not(.active){
 	background-color: #ff7673;
 }
 
+/* Sección fotos */
+
 #fotos{
 	background-color: black;
-	text-align: center;
+    text-align: center;
+    padding-left: 25px;
     padding: 59px;
+
 }
+.foto{
+	float: left;
+	border-color: #DAE2D9;    
+	margin-left: 68px;
+}
+img{
 	
 }
+
+/* Sección cajas */
+
+#cajas {
+	
+	margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.cajas-content{
+	margin-bottom: 74px;
+	 padding-top: 59px;
+	 padding-left: 55px;
+	text-align: center;
+    width: 1000px;
+    
+
+}
+
+.caja{
+	float: left;
+ 	width: 294px;
+    height: 51px;
+    background-color:  #D7363F; 
+    margin: 29px 10px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.cajas-content a{
+	list-style-type: none;
+	overflow: hidden; 
+	text-align: center;
+	padding: 14px 16px;
+	width: 800px;
+	text-decoration: none;
+	color: white;
+}
+/* Sección parrafos*/
+
+#parrafos{
+	padding-left: 25px;
+	float: left;
+}
+#parrafo1{
+	width: 340px;
+	height: 179px;
+	
+}
+
+#parrafo2{
+	width: 340px;
+    height: 179px;
+   
+}
+
+.parrafo{
+	float: left;
+	margin: 20px;
+	text-align: center;
+	margin-left:107px;
+}
+
+p {
+	padding: 20px;
+	color: #BFBB43;
+}
+
+
